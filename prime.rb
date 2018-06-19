@@ -8,7 +8,7 @@ def prime?(number)
       if number % counter == 0 
         prime_number = false 
       end 
-    counter += 1
+      counter += 1
     end 
   prime_number
 end 
